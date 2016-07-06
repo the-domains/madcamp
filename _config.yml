@@ -1,28 +1,40 @@
-name: madcamp
-favicon: null
-layout_spectrum: 0.08389755454845726
-typography_spectrum: 0.779257187154144
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
+layout_spectrum: 0.3853047
 opengraph:
   image: null
   type: null
   appId: null
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+purpose: []
 color:
+  saturation: 0.6385612511076033
+  brandStrength: 0.2903226
+  lightness: 0.6592647186480463
   brandColors:
     - '#ADD7F6'
     - '#87BFFF'
     - '#3F8EFC'
     - '#2667FF'
     - '#3B28CC'
-  brandStrength: 0.9203864557202905
-  lightness: 0.6592647186480463
-  saturation: 0.6385612511076033
-  rhythmicContrast: 0.23435537749901414
-purpose: []
+  rhythmicContrast: 0.2343553774990141
+typography_spectrum: 0.779257187154144
+cta:
+  bucket: null
+  version: null
+  domain: null
+analytics:
+  twitter: null
+  google: null
+  facebook: null
+favicon: null
+name: madcamp
